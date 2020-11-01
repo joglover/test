@@ -1,9 +1,9 @@
 {
-  "workshoptitle": "Oracle Data Safe Workshop",
+  "workshoptitle": "Test Workshop",
     "tutorials": [
           {
               "title": "Introduction",
-              "description": "This lab provides information about the Oracle Data Safe workshop.",
+              "description": "This is the intro"",
               "filename": "../../introduction/intro.html"
             }
         ]
