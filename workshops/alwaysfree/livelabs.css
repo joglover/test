@@ -1,0 +1,57 @@
+/* Style sheet covering formats not covered by LiveLabs css */
+
+/* Bullet lists and ordered lists */
+
+ol ol li {
+   list-style-type: lower-alpha;
+}
+
+ol ol ol li {
+  list-style-type: lower-roman;
+}
+
+ol ol ol ol li {
+  list-style-type: decimal;
+}
+ol ol ol ol li:before {
+   content: ") ";
+   margin-left:-3px;
+ }
+
+ol ol ol ol ol li {
+  list-style-type: lower-alpha;
+}
+
+ol ol ol ol ol ol li {
+  list-style-type: lower-roman;
+}
+
+
+ul ul li {
+   list-style-type: circle;
+}
+
+ul ul ul li {
+   list-style-type: square;
+}
+
+ul ul ul ul li {
+   list-style-type: disc;
+}
+
+ul ul ul ul ul li {
+   list-style-type: circle;
+}
+
+/* mixtures of ol and li */
+ol li ul li {
+  list-style-type: disc;
+}
+
+ol ol li ul li {
+	   list-style-type: circle;
+}
+
+ol ol ol li ul li {
+	  list-style-type: disc;
+}
