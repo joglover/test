@@ -31,9 +31,9 @@
 <h2>Links</h2>
 <p>This is an example of a link to a the <a href="?lab=lab-1-provisioning-autonomous-database-adw-atp">Provisioning Autonomous Database (ADW and ATP)</a> page in the same space. Be sure to include this page in your export.</p>
 <p>This is an example of a link to a page that is not in your export: <a href="https://confluence.oci.oraclecorp.com/display/UADARTICLES/Prerequisites+for+the+Free+Tier">Prerequisites for the Free Tier</a>.</p>
-<p>This is an example of a link to the <a href="http://www.oracle.com" class="external-link" rel="nofollow">Oracle website</a>.</p>
+<p>This is an example of a link to the <a class="external-link" href="http://www.oracle.com" rel="nofollow">Oracle website</a>.</p>
 <p>This is a link to a <em><a href="../../supported-formats-for-livelabs-html-conversion-to-markdown/files/345278845.pdf">sample PDF</a></em> attached to this page.</p>
-<p>This is a link to a <a href="https://www.oracle.com/a/tech/docs/dbsec/data-safe/ds-security-data-safe.pdf" class="external-link" rel="nofollow">PDF Data Sheet</a> on Oracle's website.</p>
+<p>This is a link to a <a class="external-link" href="https://www.oracle.com/a/tech/docs/dbsec/data-safe/ds-security-data-safe.pdf" rel="nofollow">PDF Data Sheet</a> on Oracle's website.</p>
 <p>This is a link to a <strong><a href="../../supported-formats-for-livelabs-html-conversion-to-markdown/files/345278834.sql">sample SQL script</a></strong> attached to this page.</p>
 
 <h2>Unordered Lists</h2>
@@ -151,38 +151,38 @@
 <li>
 <p>This is step 2 that has a code example.<br/><br/></p>
 
-<div class="bd-clipboard"><button class="copy-btn" data-toggle="tooltip"></button></div><figure class="highlight"><pre><code class="input">
+<pre><code class="input">
 Code line 1.
 Code line 2.
 Code line 3.
-</code></pre></figure>
+</code></pre>
 <p><br/></p>
 <p><br/></p>
 </li>
 <li>
 <p>This is an example where you are using the input option.  The input content is removed during the markdown transformation.<br/><br/></p>
 
-<div class="bd-clipboard"><button class="copy-btn" data-toggle="tooltip"></button></div><figure class="highlight"><pre><code>
-$ <b class="input">sqlplus textuser@PDB21</b>
+<pre><button class='copy-button' title='Copy text to clipboard'>Copy</button><code>
+$ <span class='copy-code'>sqlplus textuser@PDB21</span>
 Connected to:
 
-SQL> <b class="input">CREATE TABLE docs (id NUMBER PRIMARY KEY, text VARCHAR2(200), json_text JSON);</b>
+SQL> <span class='copy-code'>CREATE TABLE docs (id NUMBER PRIMARY KEY, text VARCHAR2(200), json_text JSON);</span>
 Table created.
 
-SQL> <b class="input">INSERT INTO docs VALUES(4, 'Lyon is a city in France.', '{"country": "France", "city" : "Lyon"}');</b>
+SQL> <span class='copy-code'>INSERT INTO docs VALUES(4, 'Lyon is a city in France.', '{"country": "France", "city" : "Lyon"}');</span>
 1 row created.
 
-SQL> <b class="input">INSERT INTO docs VALUES(5, 'Barcelone is a city in Spain.', '{"country": "Spain", "city" : "Barcelona"}');</b>
+SQL> <span class='copy-code'>INSERT INTO docs VALUES(5, 'Barcelone is a city in Spain.', '{"country": "Spain", "city" : "Barcelona"}');</span>
 1 row created.
 
-SQL> <b class="input">INSERT INTO docs VALUES(3, 'France is in Europe.', '{"continent": "Europe", "country" : "France"}');</b>
+SQL> <span class='copy-code'>INSERT INTO docs VALUES(3, 'France is in Europe.', '{"continent": "Europe", "country" : "France"}');</span>
 1 row created.
 
-SQL> <b class="input">COMMIT;</b>
+SQL> <span class='copy-code'>COMMIT;</span>
 Commit complete.
 
 SQL>
-</code></pre></figure>
+</code></pre>
 </li>
 </ol>
 
@@ -197,7 +197,7 @@ SQL>
 <li><code>&amp;gt;</code> is used instead of <code>&gt;</code>
 </li>
 </ul>
-<p>For a list of HTML entities, please see <a href="https://www.w3schools.com/html/html_entities.asp" class="external-link" rel="nofollow">HTML Entities</a> on <a href="http://w3school.com" class="external-link" rel="nofollow">w3school.com</a>.</p>
+<p>For a list of HTML entities, please see <a class="external-link" href="https://www.w3schools.com/html/html_entities.asp" rel="nofollow">HTML Entities</a> on <a class="external-link" href="http://w3school.com" rel="nofollow">w3school.com</a>.</p>
 
 <h2>Notes, Warnings, Info Messages</h2>
 <p>This is an example of a note.</p>

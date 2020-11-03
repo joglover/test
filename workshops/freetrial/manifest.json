@@ -1,20 +1,35 @@
 ﻿{
   "workshoptitle": "Test Workshop",
     "tutorials": [
-          {
-              "title": "Provisioning Autonomous Database (ADW and ATP)",
+			{
+              "title": "Prerequisites",
+              "description": "This is the prerequisite for the Autonomous Database Quickstart Workshop",
+              "filename": "../../prerequisites-livelabs-ad-quickstart-workshop/prerequisites-livelabs-ad-quickstart-workshop.html"
+            },
+          	{
+			"title": "Introduction",
+              "description": "This is the intro to the Autonomous database Quickstart Workshop",
+              "filename": "../../introduction-ad-quickstart-workshop/introduction-ad-quickstart-workshop.html"
+			},
+			{
+              "title": "Lab 1 Provisioning Autonomous Database (ADW and ATP)",
               "description": "This is the intro",
               "filename": "../../provisioning-autonomous-database-adw-and-atp/provisioning-autonomous-database-adw-and-atp.html"
             },
             {
-                "title": "Supported Formats",
+                "title": "Lab 2 Supported Formats",
                 "description": "These are all html supported formats",
                 "filename": "../../supported-formats-for-livelabs-html-conversion-to-markdown/supported-formats-for-livelabs-html-conversion-to-markdown.html"
               },
               {
-                  "title": "Testing Nested Steps and Bullets",
+                  "title": "Lab 3 Testing Nested Steps and Bullets",
                   "description": "These are all html supported formats",
                   "filename": "../../testing-nested-steps-and-bullets/testing-nested-steps-and-bullets.html"
+                },
+              {
+                  "title": "Lab 4 Force Upgrade Password File to be Case Sensitive",
+                  "description": "This is a lab from the Oracle Database 20c New Features guide.",
+                  "filename": "../../force-upgrade-password-file-to-be-case-sensitive/force-upgrade-password-file-to-be-case-sensitive.html"
                 }
         ]
     }
